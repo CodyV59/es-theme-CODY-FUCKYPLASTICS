@@ -1,0 +1,20 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+    <text name="nameLabel" extra="true">
+    <text>PC-Engine CD</text>
+  </text>
+</view>    
+
+<view name="system">
+   
+  <text name="shortdescription" extra="true">
+   <text>16-bit Console</text>
+  </text>
+  <text name="date" extra="true">
+   <text>1988</text>
+  </text>
+ </view>
+</theme>

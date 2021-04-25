@@ -1,0 +1,26 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+    <text name="nameLabel" extra="true">
+    <text>Power</text>
+  </text>
+    <text name="systemInfo">
+   <text>Configuration</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="shortdescription" extra="true">
+   <text>ShutDown Menu</text>
+  </text>
+  <text name="date" extra="true">
+   <text></text>
+  </text>
+  <text name="systemInfo">
+   <text>Configuration</text>
+  </text>
+ </view>
+</theme>

@@ -1,0 +1,20 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+    <text name="nameLabel" extra="true">
+    <text>Solarus</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="shortdescription" extra="true">
+   <text>Open Source Engine</text>
+  </text>
+  <text name="date" extra="true">
+   <text>2006</text>
+  </text>
+ </view>
+</theme>

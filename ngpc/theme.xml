@@ -1,0 +1,32 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+  <text name="nameLabel" extra="true">
+    <text>Neo Geo Pocket Color</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="shortdescription" extra="true">
+   <text>16-bit Handheld</text>
+  </text>
+
+  <text name="date" extra="true">
+   <text>1999</text>
+
+  </text>
+
+<image name="controller" extra="true">
+        <path>./_art/controllers/${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>0 0</origin>
+        <pos>0.67 0.38</pos>
+        <maxSize>0.30 0.30</maxSize>
+<rotation>10</rotation>
+    </image>
+
+ </view>
+</theme>

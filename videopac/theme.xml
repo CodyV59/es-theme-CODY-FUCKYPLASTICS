@@ -1,0 +1,20 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+  <text name="nameLabel" extra="true">
+    <text>VIDEOPAC</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="shortdescription" extra="true">
+   <text>8-bit Console</text>
+  </text>
+  <text name="date" extra="true">
+   <text>1978</text>
+  </text>
+ </view>
+</theme>

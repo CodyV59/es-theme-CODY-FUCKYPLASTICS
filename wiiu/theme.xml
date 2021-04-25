@@ -1,0 +1,20 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+  <text name="nameLabel" extra="true">
+    <text>Nintendo WiiU</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="shortdescription" extra="true">
+   <text>Home Console</text>
+  </text>
+  <text name="date" extra="true">
+   <text>2012</text>
+  </text>
+ </view>
+</theme>

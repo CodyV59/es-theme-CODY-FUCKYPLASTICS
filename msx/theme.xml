@@ -1,0 +1,29 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+    <text name="nameLabel" extra="true">
+    <text>MSX</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="shortdescription" extra="true">
+   <text>8-bit Computer</text>
+  </text>
+  <text name="date" extra="true">
+   <text>1983</text>
+  </text>
+
+<image name="controller" extra="true">
+        <path>./_art/controllers/${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>0 0</origin>
+        <pos>0.71 0.46</pos>
+        <maxSize>0.26 0.26</maxSize>
+<rotation>20</rotation>
+    </image>
+
+ </view>
+</theme>

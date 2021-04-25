@@ -1,0 +1,30 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+  <text name="nameLabel" extra="true">
+    <text>Famicom Disk System</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="shortdescription" extra="true">
+   <text>8-bit Console</text>
+  </text>
+  <text name="date" extra="true">
+   <text>1986</text>
+  </text>
+
+<image name="controller" extra="true">
+        <path>./_art/controllers/${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>0 0</origin>
+        <pos>0.64 0.40</pos>
+        <maxSize>0.31 0.31</maxSize>
+<rotation>18</rotation>
+    </image>
+
+ </view>
+</theme>

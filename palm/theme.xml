@@ -1,0 +1,20 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+    <text name="nameLabel" extra="true">
+    <text>PALM OS</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="shortdescription" extra="true">
+   <text>PDA's Assistants</text>
+  </text>
+  <text name="date" extra="true">
+   <text>1996</text>
+  </text>
+ </view>
+</theme>

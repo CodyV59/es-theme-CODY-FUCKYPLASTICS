@@ -1,0 +1,32 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+    <text name="nameLabel" extra="true">
+    <text>Game & Watch</text>
+  </text>
+</view>    
+
+<view name="system">
+ 
+  <text name="shortdescription" extra="true">
+   <text>Handheld Electronic Games</text>
+  </text>
+
+  <text name="date" extra="true">
+   <text>19XX</text>
+  </text>
+
+<image name="controller" extra="true">
+        <path>./_art/controllers/${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>0 0</origin>
+        <pos>0.67 0.44</pos>
+        <maxSize>0.3 0.3</maxSize>
+<rotation>20</rotation>
+    </image>
+
+
+ </view>
+</theme>

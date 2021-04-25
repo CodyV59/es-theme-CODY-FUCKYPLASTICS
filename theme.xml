@@ -1,0 +1,339 @@
+<!--
+Theme name:  Epic CODY RG351V
+Artwork by:  CodyV59
+Coding by:   CodyV59
+Fonts used:  Acre Medium & Bebas Neue Bold
+
+# Thanks and Credits
+Some controllers and graphics used in this theme are created by great artists who kindly agreed to include their art within the theme.
+
+# License
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please see README.md for full details.
+-->
+
+<theme>
+<formatVersion>7</formatVersion>
+
+  	<variables>
+		<controllerSubsetName>Show controllers in system view</controllerSubsetName>
+	</variables>
+	
+	<subset name="controller" displayName="${controllerSubsetName}">
+        <include name="on" displayName="${on}"/>
+        <include name="off" displayName="${off}">./_art/settings/controllers.xml</include>
+    </subset>
+
+        <include subset="systemview" name="Standard mod" >./standard.xml</include>
+	<include subset="systemview" name="BIG GAMELIST FONT" >./bigfont.xml</include>
+
+
+<view name="system">
+    <image name="background" extra="true">
+        <path>./_art/var/dot.png</path>
+        <tile>false</tile>
+        <size>1 1</size>
+        <pos>0 0</pos>
+        <origin>0 0</origin>
+    </image>
+
+      <sound name="bgsound">
+         <!-- try ogg -->
+         <path>./_art/assets/sounds/${system.theme}.ogg</path>
+         <!-- try mp3 -->
+         <path>./_art/assets/sounds/${system.theme}.mp3</path>
+      </sound>
+   
+    <image name="poster" extra="true">
+        <path>./_art/posters/${system.theme}.jpg</path>
+        <path>./_art/posters/${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>1 0</origin>
+        <pos>1 0</pos>
+        <size>0 1</size>
+    </image>
+
+    <carousel name="systemcarousel">
+        <type>vertical</type>
+        <color>00000000</color>
+        <origin>1 1</origin>
+        <pos>1 1</pos>
+        <size>0.01 0.01</size>
+        <logoScale>1</logoScale>
+        <logoSize>0.01 0.01</logoSize>
+        <maxLogoCount>0</maxLogoCount>
+    </carousel>
+    
+    <text name="sys_line1" extra="true">
+        <fontPath>./_art/BebasNeue.otf</fontPath>
+        <alignment>left</alignment>
+        <forceUppercase>1</forceUppercase>
+        <color>FFFFFF</color>
+		<fontSize>0.070</fontSize>
+        <origin>0 0</origin>
+        <pos>0.003 0.132</pos>
+        <size>0 0</size>
+    </text>
+    
+    <text name="sys_line2" extra="true">
+        <fontPath>./_art/BebasNeue.otf</fontPath>
+        <alignment>left</alignment>
+        <forceUppercase>1</forceUppercase>
+		<fontSize>0.25</fontSize>
+        <origin>0 0</origin>
+        <pos>0.003 0.150</pos>
+        <size>0 0</size>
+        <color>FFFFFF</color>
+    </text>
+
+    <text name="shortdescription" extra="true">
+        <fontPath>./_art/Acre.otf</fontPath>
+        <alignment>left</alignment>
+        <forceUppercase>0</forceUppercase>
+        <fontSize>0.04</fontSize>
+        <color>ffFFFF</color>
+	<glowColor>2e1d09</glowColor>
+	<glowSize>1</glowSize>
+	<glowOffset>0 0</glowOffset>
+        <origin>0 0</origin>
+        <pos>0.05 0.11</pos>
+        <size>0.320 0.025</size>
+    </text>
+
+    <text name="date" extra="true">
+        <fontPath>./_art/Acre.otf</fontPath>
+        <alignment>right</alignment>
+        <forceUppercase>0</forceUppercase>
+        <fontSize>0.04</fontSize>
+        <color>FFFFFF</color>
+	<glowColor>2e1d09</glowColor>
+	<glowSize>1</glowSize>
+	<glowOffset>0 0</glowOffset>
+        <origin>0 0</origin>
+        <pos>0.635 0.11</pos>
+        <size>0.320 0.025</size>
+    </text>
+
+
+    <text name="systemInfo">
+        <fontPath>./_art/BebasNeue.otf</fontPath>
+        <alignment>right</alignment>
+        <backgroundColor>00000000</backgroundColor>
+        <forceUppercase>1</forceUppercase>
+        <color>FFFFFF</color>
+        <origin>0 0</origin>
+        <pos>0.38 0.14</pos>
+        <size>0.400 0.042</size>
+        <fontSize>0.065</fontSize>
+	<glowColor>000000</glowColor>
+	<glowSize>2</glowSize>
+	<glowOffset>0 0</glowOffset>
+<rotation>18</rotation>
+
+    </text>
+    
+    <text name="longdescription" extra="true">
+        <fontPath>./_art/Acre.otf</fontPath>
+        <alignment>left</alignment>
+        <forceUppercase>0</forceUppercase>
+        <fontSize>0.022</fontSize>
+        <color>ffffff</color>
+ 	<lineSpacing>1.18</lineSpacing>
+        <origin>0 0</origin>
+        <pos>0.003 0.72</pos>
+        <size>0.28 0.24</size>
+    </text>
+
+<image name="controller" extra="true">
+        <path>./_art/controllers/${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>0 0</origin>
+        <pos>0.66 0.36</pos>
+        <maxSize>0.3 0.3</maxSize>
+<rotation>-15</rotation>
+    </image>
+</view>
+
+<view name="basic, detailed, video">
+
+    <image name="background" extra="true">
+        <tile>false</tile>
+        <path>./_art/ingame-global-bg.png</path>
+        <size>1 1</size>
+        <pos>0 0</pos>
+    </image>
+
+
+    <image name="snapmask" extra="true">
+        <tile>false</tile>
+        <path>./_art/snapmask.png</path>
+        <zIndex>47</zIndex>
+        <size>1 1</size>
+        <pos>0 0</pos>
+    </image>
+	
+	<helpsystem name="help">
+        <pos>0.04 0.95</pos>
+	    <origin>0 0</origin>
+        <textColor>999999</textColor>
+        <iconColor>888888</iconColor>
+    </helpsystem>
+    
+    <text name="top_label" extra="true">
+        <fontPath>./_art/BebasNeue.otf</fontPath>
+        <text></text>
+        <alignment>left</alignment>
+        <color>F8F8F8</color>
+        <fontSize>0.039</fontSize>
+        <origin>0 0</origin>
+        <pos>0.01 0.01</pos>
+        <size>0.20 0.08</size>
+    </text>
+    
+    <text name="nameLabel" extra="true">
+        <fontPath>./_art/BebasNeue.otf</fontPath>
+        <alignment>right</alignment>
+        <forceUppercase>1</forceUppercase>
+        <color>a4c82a</color>
+        <fontSize>0.060</fontSize>
+        <origin>0 0</origin>
+        <pos>0.33 0.02</pos>
+        <size>0.65 0.08</size>
+        <zIndex>50</zIndex>
+    </text>
+
+<!--    <text name="md_description">
+        <fontPath>./_art/Acre.otf</fontPath>
+	    <color>ffffff</color>
+        <fontSize>0.026</fontSize>
+	    <alignment>left</alignment>
+        <forceUppercase>0</forceUppercase>
+        <lineSpacing>1</lineSpacing>
+	    <pos>0.339 0.75</pos>
+	    <size>0.66 0.17</size>
+    </text> -->
+    
+<!-- Define metadata -->
+
+<!-- Place metadata --> 
+        
+<!-- Extra Text Labels. Edit text values if needed.-->       
+
+    <text name="txt_descript" extra="true">
+        <text></text>
+        <fontPath>./_art/Acre.otf</fontPath>
+        <alignment>left</alignment>
+        <fontSize>0.02</fontSize>
+        <color>a4c82a</color>
+        <origin>0 0</origin>
+        <pos>0.339 0.630</pos>
+        <size>0.06 0.2</size>
+    </text> 
+        
+<!-- Hidden Elements -->
+ 
+    <text name="shortdescription, longdescription" extra="true">
+        <origin>1 1</origin>
+        <pos>0 0</pos>
+        <color>00000000</color>
+    </text>
+        
+    <text name="md_lbl_releasedate, md_lbl_developer, md_developer, md_lbl_playcount, md_playcount, md_lbl_lastplayed, md_lbl_publisher, md_publsher">
+        <origin>1 1</origin>
+        <color>00000000</color>
+        <pos>0 0</pos>
+    </text>
+
+    <datetime name="md_releasedate, md_lastplayed">
+        <origin>1 1</origin>
+        <color>00000000</color>
+        <pos>0 0</pos>
+        </datetime>
+        
+</view>
+
+<view name="basic, detailed">
+    <image name="md_image">
+        <tile>false</tile>
+        <origin>0.5 0.5</origin>
+        <pos>0.66 0.52</pos>
+        <maxSize>0.65 0.75</maxSize>
+    </image>
+        <image name="md_marquee">
+            <pos>0.6598958333333333 0.220</pos>
+            <origin>0.5 0.5</origin>
+            <maxSize>0.300 0.180</maxSize>
+        </image>
+        <image name="logo">
+            <path>./_assets/systems/${system.theme}.svg</path>
+			<path>./_assets/systems/${system.theme}.png</path>
+            <pos>0.705 0.865</pos>
+            <maxSize>0.296 0.122</maxSize>
+            <origin>0.5 0.5</origin>
+        </image>
+
+</view>
+
+<feature supported="video">
+    <view name="video">
+        <image name="tvoverlay" extra="true">
+            <tile>false</tile>
+	    <path>./_art/titlelogo.png</path>
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <zIndex>49</zIndex>
+        </image>
+      <rating name="md_rating">
+         <origin>0.5 0.5</origin>       
+         <pos>0.62 0.88</pos>
+         <size>0.06 0.06</size>
+         <zIndex>50</zIndex>
+         <filledPath>./_art/star_full.png</filledPath>
+         <unfilledPath>./_art/star_hollow.png</unfilledPath>
+      </rating>
+        <video name="md_video">
+            <origin>0.5 0.5</origin>
+            <pos>0.7 0.515</pos>
+            <maxSize>0.73 0.75</maxSize>
+            <delay>1.4</delay>
+            <showSnapshotNoVideo>false</showSnapshotNoVideo>
+            <showSnapshotDelay>true</showSnapshotDelay>
+        </video>
+        <image name="md_marquee">
+            <pos>0.86 0.11</pos>
+            <origin>0.55 0.5</origin>
+            <maxSize>0.25 0.15</maxSize>
+	    <rotation>31</rotation>
+            <zIndex>50</zIndex>
+        </image>
+<datetime name="md_releasedate">
+         <origin>0.5 0.5</origin>
+         <pos>1.13 0.825</pos>
+		 <format>%Y</format>
+         <size>0.9 0.9</size>
+         <color>ffffff</color>
+         <zIndex>50</zIndex>         
+      </datetime>
+
+    </view>
+
+</feature>
+  <view name="menu">
+    <menuBackground name="menubg">
+      <color>333333</color>	  
+    </menuBackground>
+	<menuText name="menutext">
+	  <color>ff00b3</color>
+      <separatorColor>FFFFFF</separatorColor>
+      <selectorColor>${baseColor}</selectorColor>
+      <selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+      <selectedColor>FFFFFF</selectedColor>
+      <selectorGradientType>horizontal</selectorGradientType>
+	</menuText>
+	<menuTextEdit name="menutextedit">
+      <inactive>./_art/assets/textinput_inactive.png</inactive>
+      <active>./_art/assets/textinput_active.png</active>
+
+    </menuTextEdit>
+  </view>
+
+</theme>

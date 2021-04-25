@@ -1,0 +1,20 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+  <text name="nameLabel" extra="true">
+    <text>Atari Jaguar</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="shortdescription" extra="true">
+   <text>64-bit Console</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>1993</text>
+  </text>
+ </view>
+</theme>

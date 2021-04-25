@@ -1,0 +1,45 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+  <text name="nameLabel" extra="true">
+    <text>Nintendo GameBoy</text>
+  </text>
+        <image name="gridgb" extra="true">
+            <tile>false</tile>
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <path>./../_art/assets/gridgb.png</path>
+            <zIndex>48</zIndex>
+        </image>
+    <image name="md_image">
+        <tile>false</tile>
+        <origin>0.5 0.5</origin>
+        <pos>0.45 0.72</pos>
+        <maxSize>0.27 0.37</maxSize>
+            <zIndex>50</zIndex>
+    </image>
+</view>    
+
+<view name="system">
+  <text name="shortdescription" extra="true">
+   <text>8-bit Handheld</text>
+  </text>
+  <text name="date" extra="true">
+   <text>1989</text>
+  </text>
+
+
+<image name="controller" extra="true">
+        <path>./_art/controllers/${system.theme}.png</path>
+        <tile>false</tile>
+        <origin>0 0</origin>
+        <pos>0.75 0.44</pos>
+        <maxSize>0.3 0.3</maxSize>
+<rotation>33</rotation>
+    </image>
+
+ </view>
+</theme>

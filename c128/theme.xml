@@ -1,0 +1,20 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+    <text name="nameLabel" extra="true">
+    <text>Commodore 128</text>
+  </text>
+</view>    
+
+<view name="system">
+  
+  <text name="shortdescription" extra="true">
+   <text>8-bit Computer</text>
+  </text>
+  <text name="date" extra="true">
+   <text>1982</text>
+  </text>
+ </view>
+</theme>

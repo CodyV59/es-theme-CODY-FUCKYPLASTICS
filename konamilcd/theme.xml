@@ -1,0 +1,20 @@
+<theme>
+<formatVersion>7</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, grid">
+    <text name="nameLabel" extra="true">
+    <text>KONAMI LCD</text>
+  </text>
+</view>    
+
+<view name="system">
+
+  <text name="shortdescription" extra="true">
+   <text>LCD handheld</text>
+  </text>
+  <text name="date" extra="true">
+   <text>19XX</text>
+  </text>
+ </view>
+</theme>
